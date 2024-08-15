@@ -26,14 +26,14 @@ func TestInsert(t *testing.T) {
 
 	webhook := models.GitHubWebhook{
 		Repository: models.Repository{
-			FullName: "camilaleniss/secure-dev",
+			FullName: "IngDiegoRamos/software-seguro",
 		},
 		HeadCommit: models.Commit{
 			ID:      "9da3ed5d641d46dd1401d0768bc9dde90e86e1cb",
 			Message: "Add sample code for handle-github-webhook",
 			Author: models.CommitUser{
-				Email:    "mlmariacami2@gmail.com",
-				Username: "camilaleniss",
+				Email:    "djdiegoramos@hotmail.com",
+				Username: "IngDiegoRamos",
 			},
 		},
 	}
