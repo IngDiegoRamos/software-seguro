@@ -15,6 +15,11 @@ type commit struct {
 	Conn *sql.DB
 }
 
+// GetCommitByAuthorEmail implements Commit.
+func (m commit) GetCommitByAuthorEmail(ctx context.Context, email string) (commits []entity.Commit, err error) {
+	panic("unimplemented")
+}
+
 func NewCommit(conn *sql.DB) commit {
 	return commit{
 		Conn: conn,
