@@ -1,1 +1,3 @@
 # software-seguro
+
+# En este repositorio se encuentra todo lo que se necesita para llevar una trazabilidad de los commit que suban los diferentes desarrolladores de un proyecto a AWS dejando todo almacenado en una base de datos y teniendo conexiones seguras por ejemplo a GitHub con secretos almacenados en un secrect manager con su kms correspondiente, además de seguir las buenas prácticas de desarrollo en la que también se valida la identidad y se autentica, dando los diferentes permisos y autorizaciones debidas para la consulta de la información, también se tienen diferentes tipos de logs.
